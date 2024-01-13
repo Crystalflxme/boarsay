@@ -56,7 +56,7 @@ jobs:
     name: Build (${{ matrix.target }})
     runs-on: ${{ matrix.os }}
     env:
-      BIN: zap
+      BIN: boarsay
     steps:
       - uses: actions/checkout@v3
 
